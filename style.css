@@ -1,0 +1,35 @@
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    background-color: #369;
+    color: white;
+    grid-column: span 3;
+}
+
+.navigation {
+    background-color: #f90;
+    padding: 20px;
+}
+
+.links {
+  padding: 20px;
+  background-color: #936;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  font-size: 1em;
+  background-color: #690;
+  color: white;
+  grid-column: span 3;
+}
